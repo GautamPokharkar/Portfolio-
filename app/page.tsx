@@ -1,6 +1,8 @@
 import { Hero } from "@/components/sections/hero";
 import { Experience } from "@/components/sections/experience";
 import { Projects } from "@/components/sections/projects";
+import { Skills } from "@/components/sections/skills";
+import { Contact } from "@/components/sections/contact";
 
 export default function Home() {
   return (
@@ -19,6 +21,8 @@ export default function Home() {
       <Hero />
       <Experience />
       <Projects />
+      <Skills />       
+      <Contact />
       
       <footer className="py-12 mt-12 border-t border-border/50 flex justify-between items-center text-sm text-muted-foreground">
         <p>© {new Date().getFullYear()} — Built with Next.js & Tailwind.</p>
